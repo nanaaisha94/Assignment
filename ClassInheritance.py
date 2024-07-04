@@ -53,13 +53,13 @@ class Teacher(Person):
     def describe(self):
         print(f"my name is {self.name}, I'm {self.age} years old and I'm {self.height} inches tall, I call my teacher aunty {self.TeachersName}")
         
-person=Person('Sumayyah',4,28)
-student=Student('Sumayyah',4,28,2,)
-teacher=Teacher('Sumayyah',4,28,'Muslimah')
+p1=Person('Sumayyah',4,28)
+p2=Student('Sumayyah',4,28,2,)
+p3=Teacher('Sumayyah',4,28,'Muslimah')
 
-person.describe()
-student.describe()
-teacher.describe()
+p1.describe()
+p2.describe()
+p3.describe()
 
 
 
